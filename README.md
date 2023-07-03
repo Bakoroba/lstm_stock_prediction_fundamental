@@ -69,7 +69,7 @@ The stock data and the fundamental dataste are merged into a single dataframe. T
 	
 ## To run the model:
 1. Run the notebook prep_data_daily_apple_fundamentals.ipynb
-2. Run the lSTM model notebook lstm_daily_apple_fundamentals
+2. Run the lSTM model notebook lstm_daily_apple_fundamentals.ipynb
 # Contributors
 ---
 	Bakary Sylla, Yadisa Joiner, Marcus LeGare
