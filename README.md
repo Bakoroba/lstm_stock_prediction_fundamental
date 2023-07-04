@@ -62,7 +62,7 @@ The stock data and the fundamental dataste are merged into a single dataframe. T
 
 # Results and Analysis
 ## LSTM Peformance Analysis
-<img src="images/LSTM_analysis.png">
+<img src="images/analysis.png">
 
 ## Elu activation
 - Activation elu, Mean Squared Error (MAE) = 0.0466, Root Mean Squared Error (RSME) = 0.22
