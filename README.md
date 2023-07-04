@@ -69,7 +69,7 @@ The stock data and the fundamental dataste are merged into a single dataframe. T
 - Prediction Accuracy = ± 0.22
 <img src="images/LSTM_activation_elu.png">
 
-## Rlu activation
+## Relu activation
 - Activation relu, Mean Squared Error (MAE) = 0.0489, Root Mean Squared Error (RSME) = 0.22
 - Prediction Accuracy = ± 0.22
 <img src="images/LSTM_activation_relu.png">
