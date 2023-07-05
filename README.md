@@ -2,7 +2,7 @@
 ---
 
 # Overview
-The goal of the LSTM stock predictor based on company fundamentals is to build a stock predictor LSTM model to predict the movement of the stock market using  the machine learning ML) techniques and the fundamental characteristics of a company
+The goal of the LSTM stock predictor based on company fundamentals is to build a stock predictor LSTM model to predict the movement of the stock market using the machine learning ML) techniques and the fundamental characteristics of a company.
 
 The main functionalities include:
 - Historical fundamental features data collection and cleaning
@@ -47,7 +47,7 @@ Only the relevant features of the fundamental data are kept. The remaining featu
 The daily historical Apple stock price from 1980 to 2022 is collected using Yahoo finance API. The data is cleaned to reomve NaN and zero values. Only the Close and Volume columns are kept for the prediction. All the remaining columns are dropped from the data
 
 ## Merging the daily stock Close and Volume with the features of the fundamental dataset
-The stock data and the fundamental dataste are merged into a single dataframe. The two data dataframes are merged such that each row of the merged data contains the information from the same day for bothe dataset. When a specific date is in one of the two dataset but it is not in the other dataset set, it is dropped.
+The stock data and the fundamental dataset are concatenated into a single dataframe. The two data dataframes are merged such that each row of the merged data contains the information from the same day for both datasets. When a specific date is in one of the two dataset, but it is not in the other dataset set it is dropped.
 
 # Building LSTM Model
 1. Normalize the data
