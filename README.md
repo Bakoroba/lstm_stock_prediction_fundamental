@@ -50,6 +50,9 @@ The daily historical Apple stock price from 1980 to 2022 is collected using Yaho
 ## Merging the daily stock Close and Volume with the features of the fundamental dataset
 The stock data and the fundamental dataset are concatenated into a single dataframe. The two data dataframes are merged such that each row of the merged data contains the information from the same day for both datasets. When a specific date is in one of the two dataset, but it is not in the other dataset set it is dropped.
 
+Example of merging daily close with a set of fundamentals
+<img src="images/merged.png">
+
 # Building LSTM Model
 1. Normalize the data
 2. Split the data into traning and test 
