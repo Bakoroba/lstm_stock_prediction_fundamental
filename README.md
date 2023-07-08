@@ -12,7 +12,7 @@ The main functionalities include:
 
 # Data preparation and cleaning
 ## Historical fundamental features data collection
-The historical fundamental dataset is collected using Intrinio (www.intrinio.com) API. Intrinio offers a 7-day free trial API to collect 10 years of a company historical fundamental data. The API delivers the fundamental data in JSON format.
+The historical fundamental dataset is collected using Intrinio (www.intrinio.com) API. Intrinio offers a 7-day free trial API to collect 10 years of a company historical fundamental data. [The API delivers the fundamental data in JSON format.](data/raw_fundamentals_json.txt)
 
 The raw dataset has 134 features quaterly reports. The raw data is received in JSON format and converted into a dataframe which is saved as a CSV file for offline access. The data is cleaned to remove zeros and NaN values.
 
